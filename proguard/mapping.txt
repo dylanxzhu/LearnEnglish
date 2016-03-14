@@ -1,0 +1,25 @@
+com.wawa.learnenglish.activity.MainActivity -> com.wawa.learnenglish.activity.MainActivity:
+    android.content.Context context -> a
+    android.widget.GridView letterGridView -> b
+    com.wawa.learnenglish.adapter.LetterGridAdapter adapter -> c
+    java.util.List letters -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    android.content.Context access$0(com.wawa.learnenglish.activity.MainActivity) -> a
+com.wawa.learnenglish.activity.MainActivity$1 -> com.wawa.learnenglish.activity.a:
+    com.wawa.learnenglish.activity.MainActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.wawa.learnenglish.adapter.LetterGridAdapter -> com.wawa.learnenglish.a.a:
+    java.util.List letters -> a
+    android.view.LayoutInflater inflater -> b
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.wawa.learnenglish.adapter.LetterGridAdapter$LetterItem -> com.wawa.learnenglish.a.b:
+    android.widget.TextView letterTxt -> a
+com.wawa.learnenglish.entity.Letter -> com.wawa.learnenglish.b.a:
+    java.lang.String letter -> a
+    java.lang.String getLetter() -> a
+    void setLetter(java.lang.String) -> a
+com.wawa.learnenglish.util.CommonUtil -> com.wawa.learnenglish.c.a:
+    char[] getLetters() -> a
